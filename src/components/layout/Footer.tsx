@@ -36,9 +36,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-medium text-mood-neutral-dark mb-4">Connect</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-mood-neutral hover:text-mood-purple">Contact</a></li>
-              <li><a href="#" className="text-mood-neutral hover:text-mood-purple">Twitter</a></li>
-              <li><a href="#" className="text-mood-neutral hover:text-mood-purple">Instagram</a></li>
+              <li><Link to="/contact" className="text-mood-neutral hover:text-mood-purple">Contact</Link></li>
+              <li><a href="https://twitter.com" className="text-mood-neutral hover:text-mood-purple" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+              <li><a href="https://instagram.com" className="text-mood-neutral hover:text-mood-purple" target="_blank" rel="noopener noreferrer">Instagram</a></li>
             </ul>
           </div>
         </div>
